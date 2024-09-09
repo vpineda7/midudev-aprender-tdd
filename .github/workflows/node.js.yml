@@ -15,3 +15,7 @@ jobs:
     steps:
       - name: 'Hello world test'
         run: echo "hello world"
+      - name: 'Dime la fecha'
+        run: date 
+      - name: 'Muestra el conetenido'
+        run: ls -la 
